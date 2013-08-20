@@ -29,17 +29,18 @@
             states[Connection.CELL]     = '7';
             states[Connection.NONE]     = '0';
 
-            if(states[networkState]==3){
-            alert('Connection type: ' + states[networkState] + ' Using Wi-fi');
-            vibrate();
+            if(states[networkState]==3)
+            {
+              alert('Connection type: ' + states[networkState] + ' Using Wi-fi');
+              vibrate();
             }
             
-            if(states[networkState]==5){
+            else if(states[networkState]==5){
             {
               alert('Connection type: ' + states[networkState] + ' Using Cellular Data HSPA');
               vibrate();
             }
-            if(states[networkState]==7)
+            else if(states[networkState]==7)
             {
               alert('Connection type: ' + states[networkState] + ' Using Cellular Data HSPA');
               vibrate();
