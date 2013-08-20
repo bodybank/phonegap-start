@@ -35,7 +35,7 @@
               vibrate();
             }
             
-            if(states[networkState]==5)
+            else if(states[networkState]==5)
             {
               alert('Connection type: ' + states[networkState] + ' Using Cellular Data HSPA');
               vibrate();
@@ -45,9 +45,13 @@
               alert('Connection type: ' + states[networkState] + ' Using Cellular Data HSPA');
               vibrate();
             }*/
-            if(states[networkState]==0){
+            else if(states[networkState]==0){
                   playBeep();
                   alert('No Connection');
+                }
+                else
+                {
+                  alert('Connection type: 3 Using Cellular Data HSPA'); 
                 }
         }
         
