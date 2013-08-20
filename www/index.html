@@ -30,8 +30,14 @@
             states[Connection.NONE]     = '0';
 
             if(states[networkState]==3){
-            alert('Connection type: ' + states[networkState]);
+            alert('Connection type: ' + states[networkState] + ' Using Wi-fi');
             vibrate();
+            }
+            
+            if(states[networkState]==5)
+            {
+              alert('Connection type: ' + states[networkState] + ' Using Cellular Data HSPA');
+              vibrate();
             }
             
             else{
