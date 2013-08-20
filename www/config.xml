@@ -6,10 +6,10 @@
         id        = "com.bodybank"
         version   = "1.0.0">
 
-    <name>Bodybank</name>
+    <name>Detect Network State</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Using network state on your device detect.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
