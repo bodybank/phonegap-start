@@ -40,6 +40,11 @@
               alert('Connection type: ' + states[networkState] + ' Using Cellular Data HSPA');
               vibrate();
             }
+            else if(states[networkState]==4)
+            {
+              alert('Connection type: ' + states[networkState] + ' Using Edge');
+              vibrate();
+            }
             /*if(states[networkState]==7)
             {
               alert('Connection type: ' + states[networkState] + ' Using Cellular Data HSPA');
