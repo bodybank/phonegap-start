@@ -45,7 +45,7 @@
               alert('Connection type: ' + states[networkState] + ' Using Cellular Data HSPA');
               vibrate();
             }
-            else{
+            if(states[networkState]==0){
                   playBeep();
                   alert('No Connection');
                 }
